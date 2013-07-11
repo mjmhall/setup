@@ -41,3 +41,8 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# Install Heroku
+
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+

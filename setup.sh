@@ -45,4 +45,6 @@ ln -sf dotfiles/.emacs.d .
 
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
-
+git config --global user.name 'Martin Hall'
+git config --global user.email 'mjm.hall@gmail.com'
+git config --global credential.helper 'cache --timeout=3600'
